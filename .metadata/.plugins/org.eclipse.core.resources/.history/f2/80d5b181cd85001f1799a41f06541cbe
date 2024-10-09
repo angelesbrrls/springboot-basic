@@ -1,2 +1,0 @@
-INSERT INTO USUARIO (nombre, email) VALUES ('Juan', 'juan@example.com');
-INSERT INTO USUARIO (nombre, email) VALUES ('Maria', 'maria@example.com');

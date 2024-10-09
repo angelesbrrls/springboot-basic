@@ -1,0 +1,5 @@
+CREATE TABLE USUARIO (
+nombre varchar(100),
+email varchar (100));
+INSERT INTO USUARIO (nombre, email) VALUES ('Juan', 'juan@example.com');
+INSERT INTO USUARIO (nombre, email) VALUES ('Maria', 'maria@example.com');

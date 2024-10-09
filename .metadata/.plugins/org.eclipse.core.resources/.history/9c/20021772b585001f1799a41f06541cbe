@@ -1,0 +1,12 @@
+package com.miapp.config;
+
+public class SecurityService {
+	 @Bean
+	    public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
+	        http
+	            .authorizeRequests().anyRequest().authenticated()
+	            .and()
+	            .httpBasic();
+	        return http.build();
+	    }
+}

@@ -11,7 +11,7 @@ import com.miapp.repository.UsuarioRepository;
 @Service
 public class UsuarioService {
 
-	@Autowired
+    @Autowired
     private UsuarioRepository usuarioRepository;
 
     public List<Usuario> obtenerTodosLosUsuarios() {
